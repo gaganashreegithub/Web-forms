@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-------------------------- -->
+
+</head>
+
+<body>
+
+    <main class="container h-100
+    ">
+       
+        <div class="my-5  d-flex align-items-center justify-content-between">
+            <h2>Existing Employee List</h2>
+            <a href="./registration-form.html" class="btn btn-primary" type="submit">Save Employee</a>
+        </div>
+        
+        <section class="table--wrapper bg-light ">
+
+      
+    <table id="existingTable" class="table ">
+        <thead >
+            <tr>
+                <th class="fw-bold" scope="col">Employee name</th>
+                <th class="fw-bold" scope="col">Employee ID</th>
+                <th class="fw-bold" scope="col">Employee Email Adress</th>
+                <th class="fw-bold" scope="col">Employee Phone</th>
+                <th class="fw-bold" scope="col">Employee Country</th>
+                <th class="fw-bold" scope="col">Employee State</th>
+                <th class="fw-bold" scope="col">Is Wheel Chair Support Needed</th>
+                <th class="fw-bold" scope="col">Last Modified</th>
+                <th class="fw-bold action" scope="col">Actions</th>
+                
+                
+            </tr>
+        </thead>
+        <tbody  id="existingTableBody">
+      
+            
+        </tbody>
+    </table>
+    </section >
+    <!-- Button trigger modal -->
+   
+    </main>
+
+    <script type="module" src="../scripts/existig-list.js"></script>
+    <script type="module" src="../index.js"></script>
+</body>
+
+</html>
